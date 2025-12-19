@@ -20,37 +20,37 @@ RAG 기반 AI 챗봇 기능을 통해
 
 ## 🎯 주요 기능
 
-### 계좌 연동 및 자산 데이터 수집
+#### 계좌 연동 및 자산 데이터 수집
 
 - 사용자 금융 계좌 연동
 - 입출금 내역, 잔액, 금융 상품 데이터 수집
 - 스케줄러 기반 데이터 갱신
 - 데이터 정형화
 
-### 목표 설정 및 AI 분석
+#### 목표 설정 및 AI 분석
 
 - 사용자 목표 저장
 - 거래 내역 데이터 분석
 - 목표 달성을 향한 분석 결과 제공
 - 자산 상태를 참고한 상품 추천
 
-### AI 챗봇
+#### AI 챗봇
 
 - 사용자 데이터 기반 질의 처리
 - 대화형 질의응답 인터페이스 제공
 
-### 전문가 상담 결제 및 1:1 채팅
+#### 전문가 상담 결제 및 1:1 채팅
 - 상담 상품 조회
 - 결제 후 상담 예약 처리
 - 예약 완료 시 1:1 채팅방 생성
 
-### 선착순 프로모션 및 대기열 처리
+#### 선착순 프로모션 및 대기열 처리
 
 - 선착순 포인트 이벤트 처리
 - 대기열 기반 요청 처리
 - 요청 제어를 통한 매크로 방지
 
-## 기술 스택
+## ⚒️ 기술 스택
 #### Backend
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=SpringBoot&logoColor=white)
@@ -108,7 +108,111 @@ RAG 기반 AI 챗봇 기능을 통해
 ![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
 
 
-## 팀원
+## 🖥️ 아키텍처
+#### Infrastructure
+
+#### ERD
+<img width="1280" alt="image" src="https://github.com/user-attachments/assets/4955d3a9-7ff7-465e-9fb9-5ed472eea890" />
+
+
+
+
+
+
+## 🧑🏻‍💻 팀원
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/kmeans00">
+        <img width="80" height="80" src="https://github.com/kmeans00.png" alt="김민수"/>
+        <br/>
+        <strong>김민수</strong>
+      </a>
+      <br/>
+      <span>(LEADER)</span>
+    </td>
+    <td align="left">
+      - 역할 1<br/>
+      - 역할 2<br/>
+      - 역할 3<br/>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td align="center">
+      <a href="https://github.com/hoonssac">
+        <img width="80" height="80" src="https://github.com/hoonssac.png" alt="서상훈"/>
+        <br/>
+        <strong>서상훈</strong>
+      </a>
+      <br/>
+      <span>(MEMBER)</span>
+    </td>
+    <td align="left">
+      - Token Bucket 기반 Rate Liminting을 적용한 선착순 프로모션 기능 구현으로 대량 요청 처리 구조 설계<br/>
+      - 서버 메트릭을 기반으로 AI 모니터링 리포트를 생성하고 Slack 연동 알림 시스템 구축<br/>
+      - Slack 인터렉션을 통해 수동 개입 없이 자동 조치가 가능한 운영 자동화 기능 구현<br/>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <a href="https://github.com/vsuminv">
+        <img width="80" height="80" src="https://github.com/vsuminv.png" alt="이수민"/>
+        <br/>
+        <strong>이수민</strong>
+      </a>
+      <br/>
+      <span>(MEMBER)</span>
+    </td>
+    <td align="left">
+      - 역할 1<br/>
+      - 역할 2<br/>
+      - 역할 3<br/>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <a href="https://github.com/banchum">
+        <img width="80" height="80" src="https://github.com/banchum.png" alt="이학준"/>
+        <br/>
+        <strong>이학준</strong>
+      </a>
+      <br/>
+      <span>(MEMBER)</span>
+    </td>
+    <td align="left">
+      - 역할 1<br/>
+      - 역할 2<br/>
+      - 역할 3<br/>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <a href="https://github.com/hanbeen03">
+        <img width="80" height="80" src="https://github.com/hanbeen03.png" alt="이한빈"/>
+        <br/>
+        <strong>이한빈</strong>
+      </a>
+      <br/>
+      <span>(MEMBER)</span>
+    </td>
+    <td align="left">
+      - 역할 1<br/>
+      - 역할 2<br/>
+      - 역할 3<br/>
+    </td>
+  </tr>
+
+  
+
+
+</table>
+
 
 
 > 개발 기간 : 2025.12.01 ~ 2025.12.24
