@@ -203,9 +203,9 @@ RAG 기반 AI 챗봇 기능을 통해
       <span>(MEMBER)</span>
     </td>
     <td align="left">
-      - 역할 1<br/>
-      - 역할 2<br/>
-      - 역할 3<br/>
+      - Kafka를 이용한 비동기 처리 구현, 서비스들 간의 느슨한 결합(loose coupling)을 지향<br/>     
+      - Toss Payment API를 이용한 결제 시스템 구축<br/>
+      - 상품 서비스의 상담 예약 블록 구축<br/>
     </td>
   </tr>
 
