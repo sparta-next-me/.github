@@ -124,19 +124,20 @@ RAG 기반 AI 챗봇 기능을 통해
 
 <table>
   <tr>
-    <td align="center">
-      <a href="https://github.com/kmeans00">
-        <img width="80" height="80" src="https://github.com/kmeans00.png" alt="김민수"/>
+      <td align="center">
+        <a href="https://github.com/kmeans00">
+          <img width="80" height="80" src="https://github.com/kmeans00.png" alt="김민수"/>
+          <br/>
+          <strong>김민수</strong>
+        </a>
         <br/>
-        <strong>김민수</strong>
-      </a>
-      <br/>
-      <span>(LEADER)</span>
-    </td>
+        <span>(LEADER)</span>
+      </td>
     <td align="left">
-      - 역할 1<br/>
-      - 역할 2<br/>
-      - 역할 3<br/>
+      - <b>MSA 기반 User 서비스 구축 및 소셜 로그인 구현</b>: DDD 설계 원칙을 적용한 유저 엔티티 모델링 및 OAuth2 기반 소셜 로그인/일반 가입 통합 인증 시스템 구현<br/>
+      - <b>Spring Cloud Gateway 보안 설정 및 공통 모듈 설계</b>: API 게이트웨이 계층에서 JWT 검증 및 인가 필터를 구현하고, 전역 예외 처리 및 공통 응답 형식을 포함한 MSA 공통 라이브러리 모듈화<br/>
+      - <b>통합 모니터링 및 실시간 장애 대응 체계 구축</b>: Prometheus(메트릭), Loki(로그), Zipkin(트레이싱)을 연동한 통합 관찰성(Observability) 환경을 구축하고, 서버 다운 시 Slack 알림 시스템을 통해 즉각적인 장애 대응 가능 구조 설계<br/>
+      - <b>GCP 인프라 및 Jenkins CI/CD 파이프라인 구축</b>: Google Cloud Platform(GCP) 기반의 인프라 환경을 설계하고, Jenkins를 활용하여 빌드·테스트·배포 전 과정을 자동화한 무중단 배포 시스템 구축<br/>
     </td>
   </tr>
 
