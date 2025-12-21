@@ -186,9 +186,9 @@ RAG 기반 AI 챗봇 기능을 통해
       <span>(MEMBER)</span>
     </td>
     <td align="left">
-      - 역할 1<br/>
-      - 역할 2<br/>
-      - 역할 3<br/>
+      - websocket통신을 이용한 사용자 실시간 채팅 기능 구현<br/>
+      - Open AI Token 절약을 위한 Spring AI활용 사용자 질문 분석 기능 구현<br/>
+      - websocket 세션 유지 동안 챗봇 대화 내역 저장 기능 구현<br/>
     </td>
   </tr>
 
