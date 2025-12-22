@@ -190,6 +190,7 @@ RAG 기반 AI 챗봇 기능을 통해
       - websocket통신을 이용한 사용자 실시간 채팅 기능 구현<br/>
       - Open AI Token 절약을 위한 Spring AI활용 사용자 질문 분석 기능 구현<br/>
       - websocket 세션 유지 동안 챗봇 대화 내역 저장 기능 구현<br/>
+      - Write-Behind 캐싱 전략으로 DB 쓰기 병목 현상 최소화<br/>
     </td>
   </tr>
 
